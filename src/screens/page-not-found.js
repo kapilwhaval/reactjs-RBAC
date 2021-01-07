@@ -1,6 +1,5 @@
 import React from 'react';
 import { Typography } from '@material-ui/core';
-import Header from '../components/header';
 import Avatar from '@material-ui/core/Avatar';
 import Block from '@material-ui/icons/Block';
 
@@ -8,7 +7,6 @@ export default () => {
 
     return (
         <div>
-            <Header />
             <center className="pt-5">
                 <Avatar style={{ backgroundColor: 'red' }}>
                     <Block />

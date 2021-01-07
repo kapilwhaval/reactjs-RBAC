@@ -44,18 +44,18 @@ export default ({ history }) => {
                         "modulePageUrl": "/dashboard",
                         "moduleId": 1,
                     },
-                    //Uncomment this to give access to roles page
-                    // {
-                    //     "moduleName": "Roles Management",
-                    //     "modulePageUrl": "/roles",
-                    //     "moduleId": 1,
-                    //     "actions": {
-                    //         read: true,
-                    //         create: true,
-                    //         edit: true,
-                    //         remove: true
-                    //     }
-                    // },
+                    //comment this to give access to roles page
+                    {
+                        "moduleName": "Roles Management",
+                        "modulePageUrl": "/roles",
+                        "moduleId": 1,
+                        "actions": {
+                            read: true,
+                            create: false,
+                            edit: false,
+                            remove: true
+                        }
+                    },
                     {
                         "moduleName": "Users Management",
                         "modulePageUrl": "/users",
